@@ -1,0 +1,36 @@
+.rick-morty{
+    position: absolute ;
+    height: 100%;
+    width: 100%;
+    right: 50px;
+}
+
+.header{
+    position: relative !important;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-navigations{
+
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navigations ul{
+    display: flex;
+    margin-right: 20px;    
+}
+
+.header-navigations ul li{
+    margin: 12px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+.header-navigations ul li:hover{
+    border-color: black;
+}

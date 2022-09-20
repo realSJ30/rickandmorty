@@ -1,0 +1,13 @@
+.modal-container{
+    overflow: scroll;
+}
+
+.character-card{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.character-details{
+    font-size: 12px;
+    margin-left: 5px;
+}
